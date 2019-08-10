@@ -1,0 +1,61 @@
+17:32:58:691 c.h.w.SpringbootApplication [INFO ]  Starting SpringbootApplication on DESKTOP-I7VRFKN with PID 17600 (D:\xfworkspace\CentHsc\target\classes started by hsc in D:\xfworkspace\CentHsc) 
+17:32:58:692 c.h.w.SpringbootApplication [INFO ]  No active profile set, falling back to default profiles: default 
+17:32:59:684 o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:32:59 CST 2019]; root of context hierarchy 
+17:32:59:829    o.h.v.i.u.Version [INFO ]  HV000001: Hibernate Validator 5.3.6.Final 
+17:33:01:214 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [INFO ]  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f345ba74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+17:33:02:273 o.s.b.c.e.t.TomcatEmbeddedServletContainer [INFO ]  Tomcat initialized with port(s): 8080 (http) 
+17:33:02:290 o.a.c.c.StandardService [INFO ]  Starting service [Tomcat] 
+17:33:02:293 o.a.c.c.StandardEngine [INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.27 
+17:33:02:432    o.a.c.c.C.[.[.[/] [INFO ]  Initializing Spring embedded WebApplicationContext 
+17:33:02:432 o.s.w.c.ContextLoader [INFO ]  Root WebApplicationContext: initialization completed in 2748 ms 
+17:33:02:715 o.s.b.w.s.ServletRegistrationBean [INFO ]  Mapping servlet: 'statViewServlet' to [/druid/*] 
+17:33:02:716 o.s.b.w.s.ServletRegistrationBean [INFO ]  Mapping servlet: 'dispatcherServlet' to [/] 
+17:33:02:716 o.s.b.w.s.ServletRegistrationBean [INFO ]  Mapping servlet: 'statViewServlet' to [/druid/*] 
+17:33:02:716 o.s.b.w.s.ServletRegistrationBean [INFO ]  Servlet statViewServlet was not registered (possibly already registered?) 
+17:33:02:718 o.s.b.w.s.FilterRegistrationBean [INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*] 
+17:33:02:719 o.s.b.w.s.FilterRegistrationBean [INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+17:33:02:719 o.s.b.w.s.FilterRegistrationBean [INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+17:33:02:719 o.s.b.w.s.FilterRegistrationBean [INFO ]  Mapping filter: 'requestContextFilter' to: [/*] 
+17:33:02:719 o.s.b.w.s.FilterRegistrationBean [INFO ]  Mapping filter: 'webStatFilter' to urls: [/*] 
+17:33:02:719 o.s.b.w.s.FilterRegistrationBean [INFO ]  Filter webStatFilter was not registered (possibly already registered?) 
+17:33:03:748 c.a.d.p.DruidDataSource [INFO ]  {dataSource-1} inited 
+17:33:03:845 o.s.o.j.LocalContainerEntityManagerFactoryBean [INFO ]  Building JPA container EntityManagerFactory for persistence unit 'default' 
+17:33:03:949          o.h.Version [INFO ]  HHH000412: Hibernate Core {5.0.12.Final} 
+17:33:03:950    o.h.c.Environment [INFO ]  HHH000206: hibernate.properties not found 
+17:33:03:951    o.h.c.Environment [INFO ]  HHH000021: Bytecode provider name : javassist 
+17:33:04:030      o.h.a.c.Version [INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+17:33:04:265        o.h.d.Dialect [INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+17:33:04:288 o.h.e.j.e.i.LobCreatorBuilderImpl [INFO ]  HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4 
+17:33:04:551 o.s.o.j.LocalContainerEntityManagerFactoryBean [INFO ]  Initialized JPA EntityManagerFactory for persistence unit 'default' 
+17:33:05:806 o.s.w.s.m.m.a.RequestMappingHandlerAdapter [INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:32:59 CST 2019]; root of context hierarchy 
+17:33:06:120 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/api/index],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.index() 
+17:33:06:121 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/api/city],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.getCity() 
+17:33:06:219 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/alluserbase/selectPageUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectPageAll(int,int) 
+17:33:06:221 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/alluserbase/selectAllUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.hsc.wk.model.PageResult<java.util.List<com.hsc.wk.model.UserBase>> com.hsc.wk.controller.UserAnnotationController.selectAll(int,int) 
+17:33:06:277 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/alluserbase/selectAll],methods=[GET]}" onto public java.util.List<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectAll() 
+17:33:06:279 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/alluserbase/selectById/{id}],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserAnnotationController.selectById(int) 
+17:33:06:304 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/userbase/update/{id}],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.update(com.hsc.wk.model.UserBase) 
+17:33:06:304 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/userbase/delete/{id}],methods=[GET]}" onto public void com.hsc.wk.controller.UserBaseController.delete(int) 
+17:33:06:305 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/userbase/insert],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.insert(com.hsc.wk.model.UserBase) 
+17:33:06:305 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/userbase/{id}/select],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserBaseController.select(int) 
+17:33:06:311 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+17:33:06:374 o.s.w.s.m.m.a.RequestMappingHandlerMapping [INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+17:33:06:886 o.s.w.s.h.SimpleUrlHandlerMapping [INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+17:33:06:886 o.s.w.s.h.SimpleUrlHandlerMapping [INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+17:33:07:061 o.s.w.s.h.SimpleUrlHandlerMapping [INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+17:33:08:731 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Registering beans for JMX exposure on startup 
+17:33:08:733 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Bean with name 'dataSource' has been autodetected for JMX exposure 
+17:33:08:733 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Bean with name 'statFilter' has been autodetected for JMX exposure 
+17:33:08:733 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Bean with name 'wallFilter' has been autodetected for JMX exposure 
+17:33:08:748 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource] 
+17:33:08:750 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter] 
+17:33:08:751 o.s.j.e.a.AnnotationMBeanExporter [INFO ]  Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter] 
+17:33:08:807 o.a.c.h.Http11NioProtocol [INFO ]  Initializing ProtocolHandler ["http-nio-8080"] 
+17:33:08:866 o.a.c.h.Http11NioProtocol [INFO ]  Starting ProtocolHandler ["http-nio-8080"] 
+17:33:09:024 o.a.t.u.n.NioSelectorPool [INFO ]  Using a shared selector for servlet write/read 
+17:33:09:282 o.s.b.c.e.t.TomcatEmbeddedServletContainer [INFO ]  Tomcat started on port(s): 8080 (http) 
+17:33:09:387 c.h.w.SpringbootApplication [INFO ]  Started SpringbootApplication in 11.121 seconds (JVM running for 18.572) 
+17:34:08:864    o.a.c.c.C.[.[.[/] [INFO ]  Initializing Spring FrameworkServlet 'dispatcherServlet' 
+17:34:08:864 o.s.w.s.DispatcherServlet [INFO ]  FrameworkServlet 'dispatcherServlet': initialization started 
+17:34:08:886 o.s.w.s.DispatcherServlet [INFO ]  FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms 
+17:34:09:001 c.h.w.c.IndexController [INFO ]  map 

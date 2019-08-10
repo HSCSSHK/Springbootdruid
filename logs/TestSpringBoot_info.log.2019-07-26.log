@@ -1,0 +1,192 @@
+2019-07-26 17:36:10.080 [main] INFO  com.hsc.wk.SpringbootApplication - Starting SpringbootApplication on DESKTOP-I7VRFKN with PID 16368 (D:\xfworkspace\CentHsc\target\classes started by hsc in D:\xfworkspace\CentHsc)
+2019-07-26 17:36:10.090 [main] INFO  com.hsc.wk.SpringbootApplication - No active profile set, falling back to default profiles: default
+2019-07-26 17:36:10.172 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:36:10 CST 2019]; root of context hierarchy
+2019-07-26 17:36:10.303 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-07-26 17:36:11.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e11bdc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-26 17:36:12.582 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-07-26 17:36:12.609 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-26 17:36:12.610 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-07-26 17:36:12.911 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-26 17:36:12.911 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2739 ms
+2019-07-26 17:36:13.222 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:36:13.225 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-26 17:36:13.226 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:36:13.226 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-07-26 17:36:13.231 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-26 17:36:13.232 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-26 17:36:13.233 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-26 17:36:13.233 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-26 17:36:13.233 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-07-26 17:36:13.233 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-07-26 17:36:14.005 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-26 17:36:14.081 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:36:14.093 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-26 17:36:14.185 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-26 17:36:14.188 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-26 17:36:14.190 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-26 17:36:14.307 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-26 17:36:14.487 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-26 17:36:14.553 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-07-26 17:36:14.987 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:36:15.619 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:36:10 CST 2019]; root of context hierarchy
+2019-07-26 17:36:15.682 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/index],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.index()
+2019-07-26 17:36:15.683 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/city],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.getCity()
+2019-07-26 17:36:15.686 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectPageUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectPageAll(int,int)
+2019-07-26 17:36:15.686 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectById/{id}],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserAnnotationController.selectById(int)
+2019-07-26 17:36:15.686 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAll],methods=[GET]}" onto public java.util.List<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectAll()
+2019-07-26 17:36:15.686 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAllUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.hsc.wk.model.PageResult<java.util.List<com.hsc.wk.model.UserBase>> com.hsc.wk.controller.UserAnnotationController.selectAll(int,int)
+2019-07-26 17:36:15.689 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/update/{id}],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.update(com.hsc.wk.model.UserBase)
+2019-07-26 17:36:15.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/delete/{id}],methods=[GET]}" onto public void com.hsc.wk.controller.UserBaseController.delete(int)
+2019-07-26 17:36:15.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/insert],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.insert(com.hsc.wk.model.UserBase)
+2019-07-26 17:36:15.690 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/{id}/select],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserBaseController.select(int)
+2019-07-26 17:36:15.692 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-26 17:36:15.692 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 17:36:15.724 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:15.725 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:15.756 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:16.027 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-26 17:36:16.027 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-26 17:36:16.028 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-07-26 17:36:16.028 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2019-07-26 17:36:16.034 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-26 17:36:16.035 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2019-07-26 17:36:16.036 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-07-26 17:36:16.045 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:36:16.053 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:36:16.067 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-26 17:36:16.083 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-07-26 17:36:16.087 [main] INFO  com.hsc.wk.SpringbootApplication - Started SpringbootApplication in 6.3 seconds (JVM running for 8.615)
+2019-07-26 17:36:27.349 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-26 17:36:27.349 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-26 17:36:27.378 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-07-26 17:36:27.485 [http-nio-8080-exec-1] INFO  com.hsc.wk.controller.IndexController - map
+2019-07-26 17:36:50.153 [main] INFO  com.hsc.wk.SpringbootApplication - Starting SpringbootApplication on DESKTOP-I7VRFKN with PID 372 (D:\xfworkspace\CentHsc\target\classes started by hsc in D:\xfworkspace\CentHsc)
+2019-07-26 17:36:50.157 [main] INFO  com.hsc.wk.SpringbootApplication - No active profile set, falling back to default profiles: default
+2019-07-26 17:36:50.224 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:36:50 CST 2019]; root of context hierarchy
+2019-07-26 17:36:50.348 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-07-26 17:36:51.189 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f49825d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-26 17:36:51.520 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-07-26 17:36:51.528 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-26 17:36:51.529 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-07-26 17:36:51.684 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-26 17:36:51.684 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1460 ms
+2019-07-26 17:36:52.001 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:36:52.003 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-26 17:36:52.004 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:36:52.004 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-07-26 17:36:52.007 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-26 17:36:52.008 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-26 17:36:52.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-26 17:36:52.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-26 17:36:52.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-07-26 17:36:52.009 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-07-26 17:36:52.557 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-26 17:36:52.614 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:36:52.632 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-26 17:36:52.716 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-26 17:36:52.718 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-26 17:36:52.719 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-26 17:36:52.758 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-26 17:36:52.874 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-26 17:36:52.898 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-07-26 17:36:53.096 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:36:53.588 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:36:50 CST 2019]; root of context hierarchy
+2019-07-26 17:36:53.647 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/index],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.index()
+2019-07-26 17:36:53.648 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/city],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.getCity()
+2019-07-26 17:36:53.650 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectById/{id}],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserAnnotationController.selectById(int)
+2019-07-26 17:36:53.651 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectPageUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectPageAll(int,int)
+2019-07-26 17:36:53.651 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAll],methods=[GET]}" onto public java.util.List<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectAll()
+2019-07-26 17:36:53.651 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAllUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.hsc.wk.model.PageResult<java.util.List<com.hsc.wk.model.UserBase>> com.hsc.wk.controller.UserAnnotationController.selectAll(int,int)
+2019-07-26 17:36:53.653 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/update/{id}],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.update(com.hsc.wk.model.UserBase)
+2019-07-26 17:36:53.653 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/delete/{id}],methods=[GET]}" onto public void com.hsc.wk.controller.UserBaseController.delete(int)
+2019-07-26 17:36:53.653 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/insert],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.insert(com.hsc.wk.model.UserBase)
+2019-07-26 17:36:53.653 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/{id}/select],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserBaseController.select(int)
+2019-07-26 17:36:53.655 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-26 17:36:53.655 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 17:36:53.688 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:53.688 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:53.721 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:36:53.993 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-26 17:36:53.994 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-26 17:36:53.994 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-07-26 17:36:53.995 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2019-07-26 17:36:53.999 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-26 17:36:54.000 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2019-07-26 17:36:54.001 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-07-26 17:36:54.011 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:36:54.020 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:36:54.034 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-26 17:36:54.051 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-07-26 17:36:54.056 [main] INFO  com.hsc.wk.SpringbootApplication - Started SpringbootApplication in 4.254 seconds (JVM running for 5.738)
+2019-07-26 17:37:07.554 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-26 17:37:07.555 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-26 17:37:07.575 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2019-07-26 17:37:07.646 [http-nio-8080-exec-1] INFO  com.hsc.wk.controller.IndexController - map = {广州=南方城市, 北京=北方城市, 深圳=南方城市}
+2019-07-26 17:43:40.584 [main] INFO  com.hsc.wk.SpringbootApplication - Starting SpringbootApplication on DESKTOP-I7VRFKN with PID 9372 (D:\xfworkspace\CentHsc\target\classes started by hsc in D:\xfworkspace\CentHsc)
+2019-07-26 17:43:40.590 [main] INFO  com.hsc.wk.SpringbootApplication - No active profile set, falling back to default profiles: default
+2019-07-26 17:43:40.744 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:43:40 CST 2019]; root of context hierarchy
+2019-07-26 17:43:40.852 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-07-26 17:43:41.652 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fa62255] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-26 17:43:42.004 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2019-07-26 17:43:42.012 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-26 17:43:42.013 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-07-26 17:43:42.144 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-26 17:43:42.145 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1402 ms
+2019-07-26 17:43:42.388 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:43:42.391 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-07-26 17:43:42.392 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-07-26 17:43:42.392 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-07-26 17:43:42.396 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-26 17:43:42.397 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-26 17:43:42.397 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-26 17:43:42.397 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-26 17:43:42.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2019-07-26 17:43:42.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-07-26 17:43:42.970 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-26 17:43:43.011 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:43:43.023 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-26 17:43:43.084 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-07-26 17:43:43.085 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-07-26 17:43:43.086 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2019-07-26 17:43:43.128 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-07-26 17:43:43.276 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-26 17:43:43.313 [main] INFO  o.h.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-07-26 17:43:43.583 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-26 17:43:44.092 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16e7dcfd: startup date [Fri Jul 26 17:43:40 CST 2019]; root of context hierarchy
+2019-07-26 17:43:44.152 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/index],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.index()
+2019-07-26 17:43:44.153 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/city],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> com.hsc.wk.controller.IndexController.getCity()
+2019-07-26 17:43:44.156 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAllUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.hsc.wk.model.PageResult<java.util.List<com.hsc.wk.model.UserBase>> com.hsc.wk.controller.UserAnnotationController.selectAll(int,int)
+2019-07-26 17:43:44.157 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectAll],methods=[GET]}" onto public java.util.List<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectAll()
+2019-07-26 17:43:44.157 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectPageUser/{pageNum}/{pageSize}],methods=[GET]}" onto public com.github.pagehelper.PageInfo<com.hsc.wk.model.UserBase> com.hsc.wk.controller.UserAnnotationController.selectPageAll(int,int)
+2019-07-26 17:43:44.157 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/alluserbase/selectById/{id}],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserAnnotationController.selectById(int)
+2019-07-26 17:43:44.159 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/update/{id}],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.update(com.hsc.wk.model.UserBase)
+2019-07-26 17:43:44.160 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/delete/{id}],methods=[GET]}" onto public void com.hsc.wk.controller.UserBaseController.delete(int)
+2019-07-26 17:43:44.160 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/insert],methods=[POST]}" onto public void com.hsc.wk.controller.UserBaseController.insert(com.hsc.wk.model.UserBase)
+2019-07-26 17:43:44.160 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userbase/{id}/select],methods=[GET]}" onto public com.hsc.wk.model.UserBase com.hsc.wk.controller.UserBaseController.select(int)
+2019-07-26 17:43:44.162 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-26 17:43:44.163 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-26 17:43:44.192 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:43:44.192 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:43:44.226 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-26 17:43:44.539 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-07-26 17:43:44.539 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-26 17:43:44.540 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-07-26 17:43:44.540 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'wallFilter' has been autodetected for JMX exposure
+2019-07-26 17:43:44.546 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-07-26 17:43:44.546 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2019-07-26 17:43:44.547 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-07-26 17:43:44.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:43:44.568 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-26 17:43:44.581 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-07-26 17:43:44.599 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-07-26 17:43:44.603 [main] INFO  com.hsc.wk.SpringbootApplication - Started SpringbootApplication in 4.735 seconds (JVM running for 6.715)
+2019-07-26 17:43:49.258 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-26 17:43:49.258 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-26 17:43:49.289 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2019-07-26 17:43:49.382 [http-nio-8080-exec-1] INFO  com.hsc.wk.controller.IndexController - map = {广州=南方城市, 北京=北方城市, 深圳=南方城市}
