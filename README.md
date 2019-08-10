@@ -28,13 +28,11 @@ CREATE TABLE `userbase` (
   `password` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
 3.
 把数据链接地址，账号，密码，改成自己的数据配置
 spring.datasource.url=jdbc:mysql://192.168.125.128:3306/mybatis?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
 spring.datasource.username=root
 spring.datasource.password=root
-
 4.
 发邮件，改成自己申请的邮箱，改成自己申请的客户端授权码。这里是使用163邮箱，可以改成其它邮箱地址
 
